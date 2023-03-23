@@ -1,0 +1,73 @@
+.card{
+    width: 50%;
+
+    block-size: 350px;
+    max-inline-size: 427px;
+    justify-content: center;
+    margin-inline-start: 128px;
+
+
+}
+
+.hero{
+    display: flex;
+    clip-path: polygon(0 0, 100% 0px, 100% calc(100% - 128px), 0 100%);
+    background: var(--black-1);
+
+    
+}
+
+
+.wrapper{
+    display: flex;
+    background: var(--black-1);
+    block-size: 100vh;
+    inline-size: 50vw;
+    align-items: center;
+
+}
+
+
+.image-hero{
+    content: '';
+    width: 50vw;
+    background-image: url(/Hero-base/images/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    clip-path: polygon(100px 0, 100% 0, 100% 100%, 0 100%);
+
+
+}
+
+
+.wrapper h1{
+    font: var(--headline1);
+    color: var(--white);
+
+}
+
+.wrapper p{
+    font: var(--caption-regular);
+    color: var(--white);
+    
+}
+
+.wrapper button{
+    font: var(--button);
+    color: var(--white);
+    background: var(--primary);
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border-radius: 50px;
+    border: none;
+
+}
+
+
+
+
+img{
+    max-inline-size: 100%;
+        
+}
